@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+.routetteContainer {
+  width: 70%;
+}
+.sheetsContainer {
+  flex: 1;
+}
