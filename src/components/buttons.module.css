@@ -1,0 +1,8 @@
+.buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.buttons button {
+  margin-right: 20px;
+}

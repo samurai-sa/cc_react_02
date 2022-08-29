@@ -1,10 +1,11 @@
 import { BingoGameProvider } from './BingoGameProvider.jsx';
 import { BingoGame } from './BingoGame.jsx';
  
-export const Bingo = () => {
+export const Bingo = (props) => {
+  const { size } = props;
   return (
     <>
-      <BingoGameProvider>
+      <BingoGameProvider size={size}>
         <BingoGame />
       </BingoGameProvider>
     </>

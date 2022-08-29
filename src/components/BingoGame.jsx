@@ -15,4 +15,4 @@ export const BingoGame = () => {
       </div>
     </>
   )
-}
+};
